@@ -31,4 +31,3 @@ class MyStack:
             return(''.join(str(x) for x in self.data))
         else:
             return('<<< empty stack >>>')
-

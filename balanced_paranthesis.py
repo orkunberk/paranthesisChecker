@@ -2,7 +2,7 @@
 
 from MyStack import MyStack
 
-FILENAME = 'input.txt'
+FILENAME = './data/input.txt'
 pattern = ['(', '[' , '{']
 antipattern = [')', ']', '}']
 negative = {')':'(', ']':'[' , '}':'{'}
